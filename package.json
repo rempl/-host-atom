@@ -20,6 +20,30 @@
     "url": "https://github.com/rempl/host-atom/issues"
   },
   "homepage": "https://github.com/rempl/host-atom",
-  "dependencies": {
+  "eslintConfig": {
+    "env": {
+      "modules": true,
+      "node": true,
+      "mocha": true,
+      "es6": true
+    },
+    "rules": {
+      "no-duplicate-case": "error",
+      "no-undef": "error",
+      "no-unused-vars": [
+        "error",
+        {
+          "vars": "all",
+          "args": "after-used"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "codestyle": "jscs ./lib && eslint ./src"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "jscs": "^3.0.7"
   }
 }
