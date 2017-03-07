@@ -2,9 +2,9 @@
 
 [Rempl](https://github.com/rempl/rempl) host for Atom Editor
 
-Start your rempl server:
+Start your rempl server through [rempl-cli](https://github.com/rempl/rempl-cli):
 ```bash
-rempl server
+rempl
 ```
 
 > Also, you can use the [GUI](https://github.com/rempl/menubar-server) to control rempl server.
