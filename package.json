@@ -45,5 +45,8 @@
   "devDependencies": {
     "eslint": "^3.11.1",
     "jscs": "^3.0.7"
+  },
+  "deserializers": {
+    "ClientDeserializer": "deserializeClient"
   }
 }
