@@ -1,5 +1,5 @@
 {
-  "name": "rempl",
+  "name": "rempl-host",
   "version": "0.1.2",
   "description": "Rempl host for Atom Editor",
   "main": "lib/index.js",
@@ -29,5 +29,15 @@
   },
   "deserializers": {
     "ClientDeserializer": "deserializeClient"
+  },
+  "dependencies": {
+    "rempl": "rempl/rempl#3bc8823"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
   }
 }
