@@ -31,7 +31,7 @@
     "ClientDeserializer": "deserializeClient"
   },
   "dependencies": {
-    "rempl": "rempl/rempl"
+    "rempl": "^1.0.0-alpha11"
   },
   "consumedServices": {
     "status-bar": {
