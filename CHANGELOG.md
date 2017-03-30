@@ -1,3 +1,7 @@
+## 0.2.1 (March 30, 2017)
+
+- bumped rempl version
+
 ## 0.2.0 (March 25, 2017)
 
 - renamed package rempl -> rempl-host
