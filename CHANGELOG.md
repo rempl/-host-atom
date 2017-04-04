@@ -1,3 +1,7 @@
+## 0.2.2 (April 4, 2017)
+
+- minor fixes
+
 ## 0.2.1 (March 30, 2017)
 
 - bumped rempl version

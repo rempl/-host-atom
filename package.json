@@ -1,6 +1,6 @@
 {
   "name": "rempl-host",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Rempl host for Atom Editor",
   "main": "lib/index.js",
   "repository": "rempl/host-atom",
